@@ -1,50 +1,30 @@
 # 3. Orchestration and ML Pipelines
 
+## [3.0 Introduction: ML pipelines and Mage](3.0/README.md)
 
-## 3.0 Intro to Orchestration and Mage
+## [3.1 Data preparation: ETL and feature engineering](3.1/README.md)
 
-* What is Mage
-* How to build a simple pipeline
-* How to run a pipeline
+## [3.2 Training: sklearn models and XGBoost](3.2/README.md)
 
-## 3.1 Data preparation pipelines
+## [3.3 Observability: Monitoring and alerting](3.3/README.md)
 
-* Data preparation pipeline
-* Ingest data
-* Prepare data
-* Build training sets
-* Version training sets
+## [3.4 Triggering: Inference and retraining](3.4/README.md)
 
-## 3.2 Training pipeline
+## [3.5 Deploying: Running operations in production](3.5/README.md)
 
-* Training pipeline
-* Setup experiment tracking
-* Split data
-* Train model
-* Improve model through hyperparameter tuning
-* Build more training pipelines for different types of models
+## [3.6 Homework](../cohorts/2024/03-orchestration/homework.md).
 
-## 3.3 Testing and monitoring
+## Quickstart
 
-* Setup tests for models
-* Monitoring and alerting
-* Default charts
-* Custom dashboard
-* Email alerts
+See the [Unit 3.0](https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/03-orchestration/3.0/README.md) for a Quick Start guide
 
-## 3.4 Deploying to production
-* CI/CD
-* Infra setup
-* Deploy
+## Need help?
 
-## 3.5 Running in production
-
-* Scheduling and triggering
-* API trigger
-* Trigger from a block
-* Automatic retraining
+1. [Developer documentation](https://docs.mage.ai/introduction/overview)
+1. [AI chat bot](https://mageai.slack.com/archives/C05NYC4DADT)
+1. Live chat with the [Mage team directly](https://mage.ai/chat)
 
 # Notes previous editions
 
-* [2022 Prefect notes](../cohorts/2022/03-orchestration/README.md)
-* [2023 Prefect notes](../cohorts/2023/03-orchestration/prefect/README.md)
+-   [2022 Prefect notes](../cohorts/2022/03-orchestration/README.md)
+-   [2023 Prefect notes](../cohorts/2023/03-orchestration/prefect/README.md)
