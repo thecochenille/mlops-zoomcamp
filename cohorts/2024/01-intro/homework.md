@@ -64,7 +64,7 @@ What's the dimensionality of this matrix (number of columns)?
 
 Now let's use the feature matrix from the previous step to train a model. 
 
-* Train a plain linear regression model with default parameters 
+* Train a plain linear regression model with default parameters, where duration is the response variable
 * Calculate the RMSE of the model on the training data
 
 What's the RMSE on train?
@@ -77,7 +77,7 @@ What's the RMSE on train?
 
 ## Q6. Evaluating the model
 
-Now let's apply this model to the validation dataset (February 2022). 
+Now let's apply this model to the validation dataset (February 2023). 
 
 What's the RMSE on validation?
 
