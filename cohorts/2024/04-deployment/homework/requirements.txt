@@ -1,0 +1,4 @@
+numpy==1.26.4
+pandas==2.2.2
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+scikit-learn==1.4.2
