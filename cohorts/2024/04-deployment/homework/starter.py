@@ -10,7 +10,7 @@ import datetime
 
 
 def apply_model(input_file, categorical, output_file, year, month, dv, model):
-    print(f' loading the data from {input}')
+    print(f' loading the data from {input_file}')
     df = read_data(input_file, categorical)
     dicts = df[categorical].to_dict(orient='records')
     X_val = dv.transform(dicts)
