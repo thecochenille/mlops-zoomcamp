@@ -2,7 +2,7 @@ from datetime import datetime
 import pandas as pd
 import boto3
 
-S3_ENDPOINT_URL = 'http://localhost:4572'
+S3_ENDPOINT_URL = 'http://localhost:4566'
 s3_client = boto3.client('s3', endpoint_url=S3_ENDPOINT_URL)
 
 options = {
